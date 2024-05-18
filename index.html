@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BakonyFa Kft. - Minőség és megbízhatóság a Bakonyból!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <img src="/14_BakonyFa/image/Logo.png" alt="Cég Logója" class="logo">
+            </div>
+            <div class="header-text">
+                <h1>Üdvözöljük a BakonyFa Kft. honlapján!</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#banner" class="nav-button">Főoldal</a></li>
+                    <li><a href="#portfolio" class="nav-button">Szolgáltatásaink</a></li>
+                    <li><a href="#gallery" class="nav-button">Galéria</a></li>
+                    <li><a href="#contact" class="nav-button">Kapcsolat</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="banner">
+            <img src="/14_BakonyFa/image/banner.png" alt="Banner kép">
+            <div class="banner-text">
+                <h2>BakonyFa, minőségi fatermék a Bakonyból</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="tel:+36305989769" class="banner-button">Hívjon bizalommal!</a>
+                <a href="mailto:mate.nagy1990@gmail.com" class="banner-button">Keressen mailben!</a>
+            </div>
+        </section>
+        <section id="portfolio">
+            <h2 class="section-title">Szolgáltatásaink</h2>
+            <div class="portfolio-container">
+                <div class="portfolio-item">
+                    <h3>Tűzifa és fűrészárú</h3>
+                    <img src="/14_BakonyFa/image/4.png" alt="Portfólió 1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lacinia nisi at purus gravida convallis.</p>
+                </div>
+                <div class="portfolio-item">
+                    <h3>Kertrendezés és karbantartás</h3>
+                    <img src="/14_BakonyFa/image/5.png" alt="Portfólió 2">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur lacinia nisi at purus gravida convallis.</p>
+                </div>
+            </div>
+        </section>
+        <section id="gallery">
+            <h2>Galéria</h2>
+            <div class="gallery-container">
+                <button class="gallery-nav" onclick="prevImage()">&#10094;</button>
+                <div class="gallery">
+                    <img src="/14_BakonyFa/image/1.png" alt="Kép 1">
+                    <img src="/14_BakonyFa/image/2.png" alt="Kép 2">
+                    <img src="/14_BakonyFa/image/3.png" alt="Kép 3">
+                    <img src="/14_BakonyFa/image/4.png" alt="Kép 4">
+                    <img src="/14_BakonyFa/image/5.png" alt="Kép 5">
+                    <img src="/14_BakonyFa/image/2.png" alt="Kép 6">
+                </div>
+                <button class="gallery-nav" onclick="nextImage()">&#10095;</button>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 class="section-title">Kapcsolat</h2>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2660.793412561912!2d17.8080714161016!3d47.2266665224187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4769b8565b45b35f%3A0x7f7b1a4b1a8a87fa!2sBakonyn%C3%A1na%2C%208422%20Magyarorsz%C3%A1g!5e0!3m2!1shu!2sus!4v1620830229989!5m2!1shu!2sus" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 BakonyFa Kft. Webpage powered by ChatGPT 4.0o</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
